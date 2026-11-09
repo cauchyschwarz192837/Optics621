@@ -180,9 +180,7 @@ Use the no-interference rows to report sensitivity penalties before describing i
 
 See `docs/VERIFICATION.md`. Core physical tests, demo, bias/drive sweep, receiver convergence and cross-ambiguity checks were run. The included small Monte Carlo run is labeled a smoke test. The full 500-realization campaign and optional Tidy3D component solves are not represented as completed research results.
 
-## 6. Suggested team workflow
 
-Colin: verify link/receiver/noise/estimation and Monte Carlo analysis. Andre: inspect the Tidy3D geometry, electro-optic assumptions, mode convergence and component exports. Together: approve voltage conventions, fixed-power comparisons, H0 definition and interpretation. Record actual contributions in the manuscript rather than copying planned assignments.
 
 ```bash
 git init
