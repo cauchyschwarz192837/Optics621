@@ -1,3 +1,5 @@
+**Current upgrade:** [source and ranging guide](hybrid/README.md) · [revised manuscript](manuscript/FMCW_LiDAR.pdf). Earlier reports below describe the baseline release.
+
 # Intensity-coded FMCW LiDAR: complete computational project
 
 **Authors: Andre and Colin.**

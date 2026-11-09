@@ -1,0 +1,7 @@
+digraph system {
+graph [rankdir=LR,bgcolor="white",pad=.14,nodesep=.24,ranksep=.34];
+node [shape=box,style="rounded,filled",fillcolor="#edf5f5",color="#347675",fontname="DejaVu Sans",fontsize=11];
+edge [color="#506677",fontname="DejaVu Sans",fontsize=9,arrowsize=.65];
+bias [label="Voltage ramp"]; ring [label="Hybrid SiN/LN ring"];laser [label="InP diode"];split [label="Power split"];mzm [label="Intensity coder"];target [label="50 m target"];rx [label="Balanced receiver"]; adc [label="Filter, ADC\nrange estimate"];cal [label="Delay interferometer"];foreign [label="Foreign laser"];
+bias->ring;ring->laser [label=" feedback"];laser->ring [label=" coupling"];laser->split;split->mzm; mzm->target;target->rx;split->rx [label=" local oscillator"];foreign->rx;rx->adc;split->cal;cal->adc [style=dashed,label=" calibration"];
+}

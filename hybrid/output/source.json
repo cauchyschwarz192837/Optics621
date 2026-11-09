@@ -1,0 +1,16 @@
+{
+  "step_um": 0.05,
+  "gap_um": 4,
+  "active_fraction": 0.5,
+  "n_eff": 1.8734785977716857,
+  "group_index": 2.0592518468501106,
+  "mode_indices": [
+    0,
+    0,
+    0
+  ],
+  "ln_electric_energy_fraction": 0.09455908998577282,
+  "MHz_per_V": 102.29465314260743,
+  "Vpp_for_500MHz": 4.887841002823066,
+  "assumed_radius_um": 227.15965407321121
+}

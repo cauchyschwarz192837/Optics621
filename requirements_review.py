@@ -10,7 +10,7 @@ def evaluate(c):
     b=power_budget(c,True); u=power_budget(c,False)
     photon=6.62607015e-34*C/c.wavelength_m
     zr=np.pi*.005**2/c.wavelength_m
-    psd=Receiver(c).noise_psd(b['coherent_w'])
+    psd=Receiver(c).noise_psd(b['collected_w'])
     cnr=4*c.responsivity**2*c.lo_w*b['coherent_w']*c.duration_s/psd
     rows=[]
     def add(k,v,unit,basis): rows.append(dict(quantity=k,value=float(v),unit=unit,basis=basis))
