@@ -1,0 +1,191 @@
+[
+  {
+    "name": "b0.4_d0.1",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.4_d0.1.json",
+      "--out",
+      "results/campaign/bias_drive/b0.4_d0.1",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.4_d0.3",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.4_d0.3.json",
+      "--out",
+      "results/campaign/bias_drive/b0.4_d0.3",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.4_d0.6",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.4_d0.6.json",
+      "--out",
+      "results/campaign/bias_drive/b0.4_d0.6",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.5_d0.1",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.5_d0.1.json",
+      "--out",
+      "results/campaign/bias_drive/b0.5_d0.1",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.5_d0.3",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.5_d0.3.json",
+      "--out",
+      "results/campaign/bias_drive/b0.5_d0.3",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.5_d0.6",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.5_d0.6.json",
+      "--out",
+      "results/campaign/bias_drive/b0.5_d0.6",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.6_d0.1",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.6_d0.1.json",
+      "--out",
+      "results/campaign/bias_drive/b0.6_d0.1",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.6_d0.3",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.6_d0.3.json",
+      "--out",
+      "results/campaign/bias_drive/b0.6_d0.3",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "b0.6_d0.6",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/bias_drive/b0.6_d0.6.json",
+      "--out",
+      "results/campaign/bias_drive/b0.6_d0.6",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  }
+]

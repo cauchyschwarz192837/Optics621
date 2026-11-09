@@ -1,0 +1,65 @@
+[
+  {
+    "name": "overlap",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/primary/overlap.json",
+      "--out",
+      "results/campaign/primary/overlap",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,-20,-10,0,10,20,30",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "crossing",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/primary/crossing.json",
+      "--out",
+      "results/campaign/primary/crossing",
+      "--scenario",
+      "crossing",
+      "--isr",
+      "none,-20,-10,0,10,20,30",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "out_of_band",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/primary/out_of_band.json",
+      "--out",
+      "results/campaign/primary/out_of_band",
+      "--scenario",
+      "out_of_band",
+      "--isr",
+      "none,-20,-10,0,10,20,30",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  }
+]

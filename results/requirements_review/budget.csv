@@ -1,0 +1,22 @@
+quantity,value,unit,basis
+sweep_resolution,0.299792458,m,"Optical sweep scale, not isolated-target precision"
+target_delay,3.3356409519815204e-07,s,Configured air index and internal delay
+beat_frequency,1667820.4759907601,Hz,Stationary target; linear sweep
+collected_power,3.7500000000000006e-11,W,Extended Lambertian target
+coherent_power,3.750000000000001e-12,W,Assumed mode and polarization coupling
+coherent_photons_per_ramp,2926.0802548842007,photons,Coherent mode equivalent; before detector efficiency
+lo_shot_density,1.2008159603369703e-11,A/sqrt(Hz),One-sided PSD
+white_noise_cnr,35.55156452149609,dB,Unmodulated equal-power reference; no interference or phase noise
+white_noise_range_bound,0.0027583745141227215,m,Unknown-phase real sinusoid; not a coded-system guarantee
+coherence_magnitude,0.9489528878968769,1,Lorentzian linewidth
+gaussian_rayleigh_length,50.670849251448274,m,"Assumed 5 mm vacuum waist, M squared = 1"
+gaussian_radius_at_target,0.007024415589219623,m,Ideal free-space Gaussian; no turbulence
+mzm_incident_power,0.03990524629937759,W,"Branch power, not total laser output"
+total_source_budget,0.04263710136776589,W,Illustrative 0.1 mW calibration tap and 95% allocation efficiency
+uncoded_total_source_budget,0.011157894736842106,W,"Same allocation assumptions, MZM bypass"
+slope_fraction_for_1cm,0.0002,1,Single-error allowance; not combined budget
+delay_error_for_1cm,6.671281903963042e-11,s,Single-error allowance
+air_index_fraction_for_1cm,0.0002,1,Relative index error; single-error allowance
+sideband_main_lobe_upper_edge,9335640.95198152,Hz,Allocation only; code and harmonic tails remain
+one_ramp_rate_upper_bound,10000.0,Hz,Excludes retrace and processing overhead
+up_down_pair_rate_upper_bound,5000.0,Hz,Pair not implemented; excludes overhead

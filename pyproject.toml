@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intensity-coded-fmcw"
+version = "0.1.0"
+description = "Reproducible field-level FMCW LiDAR interference study"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.12,<2", "matplotlib>=3.8,<4", "threadpoolctl>=3.2,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "jupyterlab>=4,<5", "ipykernel>=6,<8"]
+component = ["tidy3d>=2.12,<3", "xarray>=2024.1"]
+
+[project.scripts]
+fmcw = "fmcw.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fmcw*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

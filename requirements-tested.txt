@@ -1,0 +1,6 @@
+# Exact core versions used for the delivered tests (Python 3.12.14).
+# Optional Tidy3D and notebook packages were not installed in the test environment.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+threadpoolctl==3.6.0

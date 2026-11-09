@@ -1,0 +1,8 @@
+{
+  "criteria": "RMSE<=1 cm; gross error<=1%; Pd>=95%; point estimates only",
+  "largest_tested_isr_db": {
+    "uncoded": null,
+    "full_field": null,
+    "sideband": null
+  }
+}

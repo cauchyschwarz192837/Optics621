@@ -1,0 +1,19 @@
+test_alias_guard (test_physics.PhysicsTests.test_alias_guard) ... ok
+test_beat_and_resolution (test_physics.PhysicsTests.test_beat_and_resolution) ... ok
+test_binomial_interval (test_physics.PhysicsTests.test_binomial_interval) ... ok
+test_calibration_independent_data (test_physics.PhysicsTests.test_calibration_independent_data) ... ok
+test_complex_mzm_noiseless_ranging (test_physics.PhysicsTests.test_complex_mzm_noiseless_ranging) ... ok
+test_fixed_foreign_power_across_power_modes (test_physics.PhysicsTests.test_fixed_foreign_power_across_power_modes) ... ok
+test_fractional_delay_wiener_variance (test_physics.PhysicsTests.test_fractional_delay_wiener_variance) ... ok
+test_isr_amplitude_scaling (test_physics.PhysicsTests.test_isr_amplitude_scaling) ... ok
+test_link_budget (test_physics.PhysicsTests.test_link_budget) ... ok
+test_mzm_signed_field (test_physics.PhysicsTests.test_mzm_signed_field) ... ok
+test_noise_enbw (test_physics.PhysicsTests.test_noise_enbw) ... ok
+test_noiseless_off_grid_range (test_physics.PhysicsTests.test_noiseless_off_grid_range) ... ok
+test_power_normalization (test_physics.PhysicsTests.test_power_normalization) ... ok
+test_white_noise_precision (test_physics.PhysicsTests.test_white_noise_precision) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.155s
+
+OK

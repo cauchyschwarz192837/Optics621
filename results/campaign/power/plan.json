@@ -1,0 +1,86 @@
+[
+  {
+    "name": "equal_launch",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/power/equal_launch.json",
+      "--out",
+      "results/campaign/power/equal_launch",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,0,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "equal_launch_fixed_foreign",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/power/equal_launch_fixed_foreign.json",
+      "--out",
+      "results/campaign/power/equal_launch_fixed_foreign",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,0,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "equal_source",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/power/equal_source.json",
+      "--out",
+      "results/campaign/power/equal_source",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,0,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "equal_source_fixed_foreign",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/power/equal_source_fixed_foreign.json",
+      "--out",
+      "results/campaign/power/equal_source_fixed_foreign",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,0,10,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "name": "linewidth_3000",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/linewidth_3000.json",
+      "--out",
+      "results/campaign/robustness/linewidth_3000",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "linewidth_50000",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/linewidth_50000.json",
+      "--out",
+      "results/campaign/robustness/linewidth_50000",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "linewidth_300000",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/linewidth_300000.json",
+      "--out",
+      "results/campaign/robustness/linewidth_300000",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "coupling_0.01",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/coupling_0.01.json",
+      "--out",
+      "results/campaign/robustness/coupling_0.01",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "coupling_0.3",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/coupling_0.3.json",
+      "--out",
+      "results/campaign/robustness/coupling_0.3",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "range_10",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/range_10.json",
+      "--out",
+      "results/campaign/robustness/range_10",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "range_100",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/range_100.json",
+      "--out",
+      "results/campaign/robustness/range_100",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "mzi_delay_error_-0.001",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/mzi_delay_error_-0.001.json",
+      "--out",
+      "results/campaign/robustness/mzi_delay_error_-0.001",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "mzi_delay_error_0.001",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/mzi_delay_error_0.001.json",
+      "--out",
+      "results/campaign/robustness/mzi_delay_error_0.001",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "speckle",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/speckle.json",
+      "--out",
+      "results/campaign/robustness/speckle",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,10",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  },
+  {
+    "name": "clipping",
+    "command": [
+      "python",
+      "-m",
+      "fmcw.cli",
+      "mc",
+      "--config",
+      "results/campaign/robustness/clipping.json",
+      "--out",
+      "results/campaign/robustness/clipping",
+      "--scenario",
+      "overlap",
+      "--isr",
+      "none,20",
+      "--trials",
+      "500",
+      "--null-trials",
+      "2000"
+    ]
+  }
+]

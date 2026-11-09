@@ -1,0 +1,110 @@
+[
+  {
+    "method": "uncoded",
+    "isr_db": null,
+    "scenario": "overlap",
+    "n": 60,
+    "bias_m": -6.290288972768584e-05,
+    "std_m": 0.002969352828810875,
+    "rmse_m": 0.0029451760657846,
+    "gross_error_probability": 0.0,
+    "gross_error_ci95": [
+      0.0,
+      0.05962949228616691
+    ],
+    "detection_probability": 1.0,
+    "detection_ci95": [
+      0.9403705077138331,
+      1.0
+    ],
+    "threshold": 23.71836926156072,
+    "false_alarm_validation": 0.007,
+    "false_alarm_ci95": [
+      0.002818858759620524,
+      0.014369194978918632
+    ],
+    "null_trials": 1000,
+    "mean_clipped_fraction": 0.0,
+    "transmission": 1.0,
+    "source_w": 0.01,
+    "launch_w": 0.01,
+    "peak_launch_w": 0.01,
+    "collected_w": 3.7500000000000006e-11,
+    "coherent_w": 3.750000000000001e-12,
+    "actual_isr_db": null,
+    "foreign_coherent_w": 0.0,
+    "isr_axis": "actual received ISR"
+  },
+  {
+    "method": "full_field",
+    "isr_db": null,
+    "scenario": "overlap",
+    "n": 60,
+    "bias_m": 2.086655255221596e-05,
+    "std_m": 0.00286321324387835,
+    "rmse_m": 0.002839329555535448,
+    "gross_error_probability": 0.0,
+    "gross_error_ci95": [
+      0.0,
+      0.05962949228616691
+    ],
+    "detection_probability": 1.0,
+    "detection_ci95": [
+      0.9403705077138331,
+      1.0
+    ],
+    "threshold": 23.34593683849854,
+    "false_alarm_validation": 0.013,
+    "false_alarm_ci95": [
+      0.006939617502851475,
+      0.022127803636778486
+    ],
+    "null_trials": 1000,
+    "mean_clipped_fraction": 0.0,
+    "transmission": 0.2505936168136362,
+    "source_w": 0.03990524629937759,
+    "launch_w": 0.01,
+    "peak_launch_w": 0.01809016994374947,
+    "collected_w": 3.7500000000000006e-11,
+    "coherent_w": 3.750000000000001e-12,
+    "actual_isr_db": null,
+    "foreign_coherent_w": 0.0,
+    "isr_axis": "actual received ISR"
+  },
+  {
+    "method": "sideband",
+    "isr_db": null,
+    "scenario": "overlap",
+    "n": 60,
+    "bias_m": 0.0007812026782149909,
+    "std_m": 0.010756736597828068,
+    "rmse_m": 0.010695288845511365,
+    "gross_error_probability": 0.0,
+    "gross_error_ci95": [
+      0.0,
+      0.05962949228616691
+    ],
+    "detection_probability": 1.0,
+    "detection_ci95": [
+      0.9403705077138331,
+      1.0
+    ],
+    "threshold": 22.87306284932883,
+    "false_alarm_validation": 0.01,
+    "false_alarm_ci95": [
+      0.004805510691049308,
+      0.01831324305511245
+    ],
+    "null_trials": 1000,
+    "mean_clipped_fraction": 0.0,
+    "transmission": 0.2505936168136362,
+    "source_w": 0.03990524629937759,
+    "launch_w": 0.01,
+    "peak_launch_w": 0.01809016994374947,
+    "collected_w": 3.7500000000000006e-11,
+    "coherent_w": 3.750000000000001e-12,
+    "actual_isr_db": null,
+    "foreign_coherent_w": 0.0,
+    "isr_axis": "actual received ISR"
+  }
+]

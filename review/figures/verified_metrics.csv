@@ -1,0 +1,7 @@
+study,method,n,rmse_mm,gross_errors,threshold_crossings,correct_detections,correct_detection_rate
+no_interference_validation,uncoded,60,2.9451760657846004,0,60,60,1.0
+no_interference_validation,full_field,60,2.8393295555354485,0,60,60,1.0
+no_interference_validation,sideband,60,10.695288845511365,0,60,60,1.0
+smoke_mc,uncoded,20,449.12883649767934,20,13,0,0.0
+smoke_mc,full_field,20,449.33829255126557,20,11,0,0.0
+smoke_mc,sideband,20,24.351004644163893,0,17,17,0.85

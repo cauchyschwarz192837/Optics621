@@ -1,0 +1,17 @@
+{
+  "seed": 20261121,
+  "measurement": "coherently referenced MZM field; unwrapped MZI phase",
+  "fit_success": true,
+  "mzm_residual_rms": 0.00307785694779147,
+  "mzi_residual_rms_rad": 0.00299320225150773,
+  "estimated": {
+    "vpi_v": 3.998422857738512,
+    "insertion_db": 2.9994480299467874,
+    "arm_imbalance": 1.6436958709355984e-10,
+    "residual_chirp": 5.611159510757855e-05,
+    "bias_v": 1.9986817224086755,
+    "slope_error": 1.017863293428789e-06,
+    "chirp_error_hz": -131.93381483670584
+  },
+  "caveat": "Synthetic calibration assumes known MZI delay and known chirp-error basis. Delay error remains systematic."
+}

@@ -1,0 +1,9 @@
+smoke_mc full_field  20 rmse_mm 3.3082 correct_detections 20 max replay delta m 0.0
+smoke_mc full_field 10.0 20 rmse_mm 449.3383 correct_detections 0 max replay delta m 0.0
+smoke_mc sideband  20 rmse_mm 10.8531 correct_detections 20 max replay delta m 0.0
+smoke_mc sideband 10.0 20 rmse_mm 24.351 correct_detections 17 max replay delta m 0.0
+smoke_mc uncoded  20 rmse_mm 3.3042 correct_detections 20 max replay delta m 0.0
+smoke_mc uncoded 10.0 20 rmse_mm 449.1288 correct_detections 0 max replay delta m 0.0
+no_interference_validation full_field  60 rmse_mm 2.8393 correct_detections 60 max replay delta m 0.0
+no_interference_validation sideband  60 rmse_mm 10.6953 correct_detections 60 max replay delta m 0.0
+no_interference_validation uncoded  60 rmse_mm 2.9452 correct_detections 60 max replay delta m 0.0

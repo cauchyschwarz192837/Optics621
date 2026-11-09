@@ -1,0 +1,20 @@
+{
+  "name": "TFLN_width_1p2_gap_5",
+  "wavelength_um": 1.55,
+  "width_um": 1.2,
+  "film_um": 0.6,
+  "slab_um": 0.3,
+  "gap_um": 5.0,
+  "length_m": 0.01,
+  "n_o": 2.211,
+  "n_e": 2.138,
+  "n_clad": 1.444,
+  "r13_pm_v": 8.6,
+  "r33_pm_v": 30.9,
+  "voltage_step_v": 1.0,
+  "meshes_um": [0.10, 0.075, 0.05],
+  "domain_x_um": 6.0,
+  "domain_z_um": 4.0,
+  "domain_expansion_um": 2.0,
+  "relative_vpi_tolerance": 0.03
+}

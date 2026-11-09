@@ -1,0 +1,91 @@
+14:42:36 EST WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: Use the remote mode solver with subpixel averaging for    
+             better accuracy through 'tidy3d.web.run(...)' or the deprecated    
+             'tidy3d.plugins.mode.web.run(...)'. Alternatively, you can install 
+             the package 'tidy3d-extras' using 'pip install "tidy3d"' and set   
+             'config.simulation.use_local_subpixel=True'.                       
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+             WARNING: 'ModeSolver': The mode solver pml in tangential axis '1'  
+             covers more than '50%' of the mode plane cells. Consider using a   
+             larger mode plane or smaller 'num_pml'.                            
+14:42:41 EST WARNING: Mode field at frequency index 0, mode index 3 does not    
+             decay at the plane boundaries.                                     
+14:42:42 EST WARNING: Mode field at frequency index 0, mode index 3 does not    
+             decay at the plane boundaries.                                     
+14:42:43 EST WARNING: Mode field at frequency index 0, mode index 3 does not    
+             decay at the plane boundaries.                                     
+14:42:45 EST WARNING: Mode field at frequency index 0, mode index 3 does not    
+             decay at the plane boundaries.                                     
+14:42:46 EST WARNING: Mode field at frequency index 0, mode index 3 does not    
+             decay at the plane boundaries.                                     
+14:42:47 EST WARNING: Mode field at frequency index 0, mode index 3 does not    
+             decay at the plane boundaries.                                     
+{
+  "name": "TFLN_width_1p5_gap_7",
+  "wavelength_m": 1.55e-06,
+  "vpi_v": 3.766252254431931,
+  "vpi_l_v_m": 0.03766252254431931,
+  "dneff_dv": -2.0577485193351563e-05,
+  "converged": true,
+  "relative_changes": [
+    0.01444857506662034,
+    0.0020817564416192313,
+    2.4278978827396713e-10
+  ],
+  "tidy3d_version": "2.12.2",
+  "geometry": {
+    "name": "TFLN_width_1p5_gap_7",
+    "wavelength_um": 1.55,
+    "width_um": 1.5,
+    "film_um": 0.6,
+    "slab_um": 0.3,
+    "gap_um": 7.0,
+    "length_m": 0.01,
+    "n_o": 2.211,
+    "n_e": 2.138,
+    "n_clad": 1.444,
+    "r13_pm_v": 8.6,
+    "r33_pm_v": 30.9,
+    "voltage_step_v": 1.0,
+    "meshes_um": [
+      0.1,
+      0.075,
+      0.05
+    ],
+    "domain_x_um": 6.0,
+    "domain_z_um": 4.0,
+    "domain_expansion_um": 2.0,
+    "relative_vpi_tolerance": 0.03
+  },
+  "voltage_convention": "Differential voltage: arm 1 +V/2, arm 2 -V/2",
+  "assumptions": [
+    "Uniform RF field V_arm/gap, not electrostatic electrode solution",
+    "Crystal Z along lab x; propagation lab y; crystal X normal to film lab z",
+    "Rectangular LN ridge/slab in silica; no metal or fabrication loss",
+    "n_o, n_e, r13, r33 are assumed constants; no dispersion or group-index extraction",
+    "Insertion loss remains an independent system assumption",
+    "Local mode solver; convergence of numerical Vpi is not validation of RF approximation"
+  ]
+}

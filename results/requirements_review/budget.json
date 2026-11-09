@@ -1,0 +1,128 @@
+[
+  {
+    "quantity": "sweep_resolution",
+    "value": 0.299792458,
+    "unit": "m",
+    "basis": "Optical sweep scale, not isolated-target precision"
+  },
+  {
+    "quantity": "target_delay",
+    "value": 3.3356409519815204e-07,
+    "unit": "s",
+    "basis": "Configured air index and internal delay"
+  },
+  {
+    "quantity": "beat_frequency",
+    "value": 1667820.4759907601,
+    "unit": "Hz",
+    "basis": "Stationary target; linear sweep"
+  },
+  {
+    "quantity": "collected_power",
+    "value": 3.7500000000000006e-11,
+    "unit": "W",
+    "basis": "Extended Lambertian target"
+  },
+  {
+    "quantity": "coherent_power",
+    "value": 3.750000000000001e-12,
+    "unit": "W",
+    "basis": "Assumed mode and polarization coupling"
+  },
+  {
+    "quantity": "coherent_photons_per_ramp",
+    "value": 2926.0802548842007,
+    "unit": "photons",
+    "basis": "Coherent mode equivalent; before detector efficiency"
+  },
+  {
+    "quantity": "lo_shot_density",
+    "value": 1.2008159603369703e-11,
+    "unit": "A/sqrt(Hz)",
+    "basis": "One-sided PSD"
+  },
+  {
+    "quantity": "white_noise_cnr",
+    "value": 35.55156452149609,
+    "unit": "dB",
+    "basis": "Unmodulated equal-power reference; no interference or phase noise"
+  },
+  {
+    "quantity": "white_noise_range_bound",
+    "value": 0.0027583745141227215,
+    "unit": "m",
+    "basis": "Unknown-phase real sinusoid; not a coded-system guarantee"
+  },
+  {
+    "quantity": "coherence_magnitude",
+    "value": 0.9489528878968769,
+    "unit": "1",
+    "basis": "Lorentzian linewidth"
+  },
+  {
+    "quantity": "gaussian_rayleigh_length",
+    "value": 50.670849251448274,
+    "unit": "m",
+    "basis": "Assumed 5 mm vacuum waist, M squared = 1"
+  },
+  {
+    "quantity": "gaussian_radius_at_target",
+    "value": 0.007024415589219623,
+    "unit": "m",
+    "basis": "Ideal free-space Gaussian; no turbulence"
+  },
+  {
+    "quantity": "mzm_incident_power",
+    "value": 0.03990524629937759,
+    "unit": "W",
+    "basis": "Branch power, not total laser output"
+  },
+  {
+    "quantity": "total_source_budget",
+    "value": 0.04263710136776589,
+    "unit": "W",
+    "basis": "Illustrative 0.1 mW calibration tap and 95% allocation efficiency"
+  },
+  {
+    "quantity": "uncoded_total_source_budget",
+    "value": 0.011157894736842106,
+    "unit": "W",
+    "basis": "Same allocation assumptions, MZM bypass"
+  },
+  {
+    "quantity": "slope_fraction_for_1cm",
+    "value": 0.0002,
+    "unit": "1",
+    "basis": "Single-error allowance; not combined budget"
+  },
+  {
+    "quantity": "delay_error_for_1cm",
+    "value": 6.671281903963042e-11,
+    "unit": "s",
+    "basis": "Single-error allowance"
+  },
+  {
+    "quantity": "air_index_fraction_for_1cm",
+    "value": 0.0002,
+    "unit": "1",
+    "basis": "Relative index error; single-error allowance"
+  },
+  {
+    "quantity": "sideband_main_lobe_upper_edge",
+    "value": 9335640.95198152,
+    "unit": "Hz",
+    "basis": "Allocation only; code and harmonic tails remain"
+  },
+  {
+    "quantity": "one_ramp_rate_upper_bound",
+    "value": 10000.0,
+    "unit": "Hz",
+    "basis": "Excludes retrace and processing overhead"
+  },
+  {
+    "quantity": "up_down_pair_rate_upper_bound",
+    "value": 5000.0,
+    "unit": "Hz",
+    "basis": "Pair not implemented; excludes overhead"
+  }
+]
